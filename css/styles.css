@@ -1,0 +1,102 @@
+*{
+    border: 0;
+    padding: 0;
+}
+.penguin-logo{
+    margin-left: 15px;
+    width: 100%;
+    margin-right: 15px;
+}
+.head-section{
+    background-color:rgba(255, 251, 240, 1);
+}
+.penguin-navbar{
+    background-color: 0;
+}
+h1{
+    font-family: 'Bebas Neue', cursive;
+}
+#text-style{
+    color: rgba(250, 190, 76, 1);
+    font-size: 80px;
+}
+.text-style2{
+    font-size: 80px;
+}
+.penguin-catagory, .text-style2{
+    color: rgba(54, 57, 88, 1);
+}
+.penguin-card-img{
+    padding: 5%;
+    background-color: rgba(241, 241, 241, 1);
+    margin: 4% auto; 
+}
+.penguin-info{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+.penguin-card-border, .penguin-card-img{
+    border-radius: 1em;
+}
+.price-text-style{
+    color: rgba(250, 190, 76, 1);
+    font-weight: bold;
+}
+.penguin-card-footer, .penguin-card-border{
+    background-color: white;
+    border: 0;
+}
+.penguin-btn{
+    background-color: rgba(164, 188, 70, 1);
+    color: white;
+    background-color: #a4bc4c;
+}
+.footer-section{
+    background-color:#191919;
+    padding: 3% 1% 1% 1%;
+}
+.penguin-btn {
+    display: block;
+    margin-bottom: 10px;
+}
+.col{
+    margin-bottom: 30px;
+}
+.narrow-btn {
+    width: 150px;
+    padding: 10px;
+    text-align: center;
+}
+.quick-view-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.quick-view-item {
+    display: inline-block;
+    margin: 0;
+}
+.quick-view-item {
+    text-align: center;
+}
+
+.quick-view-item a {
+    background-color: #a4bc4c;
+    border-color: #a4bc4c;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.quick-view-item a:hover {
+    background-color: #88a236;
+    border: 0;
+}
+.penguin-card-img {
+    width: 100%;
+    height: auto;
+}

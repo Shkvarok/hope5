@@ -1,0 +1,121 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Breadcrumb Section */
+.breacrumb-section {
+    padding: 30px 0;
+    background-color: #f3f4f6;
+}
+
+.breadcrumb-text {
+    text-align: center;
+}
+
+.breadcrumb-text a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.breadcrumb-text span {
+    color: #6c757d;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+/* Register/Login Section */
+.register-login-section {
+    padding: 50px 0;
+}
+
+.register-login-section .login-form {
+    background: #fff;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.register-login-section h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.group-input {
+    margin-bottom: 20px;
+}
+
+.group-input label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.group-input input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.site-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.site-btn:hover {
+    background-color: #0056b3;
+}
+
+.switch-login {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.switch-login a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.switch-login a:hover {
+    text-decoration: underline;
+}
+
+/* Error Messages */
+#email_error,
+#password_error {
+    color: red;
+    font-size: 14px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+
+    .breadcrumb-text a,
+    .breadcrumb-text span {
+        font-size: 14px;
+    }
+
+    .register-login-section h2 {
+        font-size: 20px;
+    }
+
+    .site-btn {
+        font-size: 16px;
+    }
+}
